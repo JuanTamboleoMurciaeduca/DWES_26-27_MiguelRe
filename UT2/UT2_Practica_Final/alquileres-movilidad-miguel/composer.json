@@ -1,0 +1,15 @@
+{
+    "name": "clase/alquileres",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Clase\\Alquileres\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Miguel Re Ibarra",
+            "email": "m.reibarra22@gmail.com"
+        }
+    ]
+}

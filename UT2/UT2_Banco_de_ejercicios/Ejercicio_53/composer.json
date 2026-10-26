@@ -1,0 +1,13 @@
+{
+    "name": "dwes/ejercicio-53",
+    "description": "Ejercicio 53: autoload de una jerarquía completa",
+    "type": "project",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "dwes/ejercicio-52",
+    "description": "Ejercicio 52: traslado de clases respetando PSR-4",
+    "type": "project",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

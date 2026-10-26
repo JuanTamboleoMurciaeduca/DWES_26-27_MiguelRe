@@ -1,0 +1,13 @@
+{
+    "name": "dwes/ejercicio-57",
+    "description": "Ejercicio 57: buscar y prestar desde un repositorio",
+    "type": "project",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

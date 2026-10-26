@@ -1,0 +1,13 @@
+{
+    "name": "dwes/ejercicio-51",
+    "description": "Ejercicio 51: carga de clases con Composer",
+    "type": "project",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

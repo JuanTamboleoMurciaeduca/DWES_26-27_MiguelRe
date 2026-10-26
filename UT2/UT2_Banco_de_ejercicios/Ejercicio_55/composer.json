@@ -1,0 +1,13 @@
+{
+    "name": "dwes/ejercicio-55",
+    "description": "Ejercicio 55: reparar un proyecto que no carga sus clases",
+    "type": "project",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}

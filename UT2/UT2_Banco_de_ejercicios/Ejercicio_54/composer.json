@@ -1,0 +1,17 @@
+{
+    "name": "dwes/ejercicio-54",
+    "description": "Ejercicio 54: comandos Composer para listar recursos",
+    "type": "project",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "scripts": {
+        "catalogo": "@php public/index.php",
+        "resumen": "@php public/resumen.php"
+    }
+}

@@ -1,0 +1,13 @@
+{
+    "name": "dwes/ejercicio-56",
+    "description": "Ejercicio 56: un servicio que depende de una interfaz",
+    "type": "project",
+    "require": {
+        "php": ">=8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    }
+}
